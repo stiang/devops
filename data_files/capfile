@@ -1,0 +1,27 @@
+# Setup here
+repo   = `git ls-remote --get-url`.split(':')[1].gsub(/\.git$/, '').gsub(/[\\\n]/, '')
+branch = `git rev-parse --symbolic-full-name --abbrev-ref HEAD`.gsub(/[\\\n]/, '')
+cmd    = "runurl https://raw.githubusercontent.com/notebase/devops/master/bin/deploy"
+common = "#{cmd} #{repo} #{branch}"
+
+role :app_servers, "h1.notebase.io"
+
+ssh_options[:forward_agent] = true
+
+set :user, "app"
+role_name = :app_servers
+
+desc "Deploy App to production"
+task :deploy, :roles => role_name do
+  run "#{common} prod update quiet"
+end
+
+desc "Deploy App to staging"
+task :stage, :roles => role_name do
+  run "#{common} staging update quiet"
+end
+
+desc "Deploy App to development"
+task :dev, :roles => role_name do
+  run "#{common} dev update quiet"
+end

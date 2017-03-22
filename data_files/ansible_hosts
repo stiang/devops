@@ -1,0 +1,6 @@
+[webservers]
+web1.notebase.io
+web2.notebase.io
+
+[dbservers]
+db1.notebase.io

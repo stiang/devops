@@ -1,1 +1,2857 @@
-{}
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sele",
+				"selectedInboxItems"
+			],
+			[
+				"flush",
+				"flushTextUndo"
+			],
+			[
+				"breadc",
+				"breadcrumbItems"
+			],
+			[
+				"decorate",
+				"decorateNodesWithAccessLevel"
+			],
+			[
+				"notifi",
+				"notifications-side-padding"
+			],
+			[
+				"eli",
+				"eligibleNodes"
+			],
+			[
+				"delete",
+				"deleteGroupPermission"
+			],
+			[
+				"sear",
+				"searchCriteria"
+			],
+			[
+				"isN",
+				"isNavButtonDisabled"
+			],
+			[
+				"free",
+				"freeTextValue"
+			],
+			[
+				"call",
+				"callbackQueue"
+			],
+			[
+				"useper",
+				"usePersonalFileBrowser"
+			],
+			[
+				"usePer",
+				"usePersonalFileBrowser"
+			],
+			[
+				"file-bwo",
+				"file-browser-header-height"
+			],
+			[
+				"header",
+				"header-height"
+			],
+			[
+				"org-sw",
+				"org-switcher-width"
+			],
+			[
+				"org",
+				"org-switcher-width"
+			],
+			[
+				"active",
+				"activeNode"
+			],
+			[
+				"getco",
+				"getCommonParams"
+			],
+			[
+				"toggle",
+				"toggleAddUserToGroup"
+			],
+			[
+				"decline",
+				"declineOrgInvite"
+			],
+			[
+				"up",
+				"updatedOrg"
+			],
+			[
+				"getC",
+				"getCurrentOrg"
+			],
+			[
+				"handle",
+				"handleAllowRequestsChange"
+			],
+			[
+				"handleIn",
+				"handleInviteFieldKeyDown"
+			],
+			[
+				"membership",
+				"membershipRequests"
+			],
+			[
+				"groups-li",
+				"groups-list-width"
+			],
+			[
+				"groups",
+				"groups-list-width"
+			],
+			[
+				"new",
+				"newOrgForm"
+			],
+			[
+				"vtabs",
+				"vtabs-width"
+			],
+			[
+				"uniq",
+				"uniqueNameId"
+			],
+			[
+				"assign",
+				"assigned-gravatar"
+			],
+			[
+				"request",
+				"requestNotificationPermission"
+			],
+			[
+				"elig",
+				"eligibleRe"
+			],
+			[
+				"sett",
+				"settingsOpen"
+			],
+			[
+				"load",
+				"loadSource"
+			],
+			[
+				"handlePri",
+				"handlePriceModelChange"
+			],
+			[
+				"incom",
+				"incomingCampaignId"
+			],
+			[
+				"eligi",
+				"eligibleAds"
+			],
+			[
+				"sing",
+				"singleLineBodyRe"
+			],
+			[
+				"create",
+				"createdNode"
+			],
+			[
+				"browsing",
+				"browsingRevisionsFor"
+			],
+			[
+				"preview",
+				"previewingRevision"
+			],
+			[
+				"previ",
+				"previewNode"
+			],
+			[
+				"diff",
+				"diffNodes"
+			],
+			[
+				"parseMark",
+				"parseMarkdownTabs"
+			],
+			[
+				"commentP",
+				"commentProviders"
+			],
+			[
+				"act",
+				"activeClass"
+			],
+			[
+				"findFi",
+				"findFirstByKey"
+			],
+			[
+				"closeFile",
+				"closeFileEditor"
+			],
+			[
+				"close",
+				"closeFileBrowser"
+			],
+			[
+				"brow",
+				"browseFiles"
+			],
+			[
+				"browseFiles",
+				"browseFilesOptions"
+			],
+			[
+				"insert",
+				"insertUrlAtCursor"
+			],
+			[
+				"brows",
+				"browsingFiles"
+			],
+			[
+				"treat",
+				"treatAsCategory"
+			],
+			[
+				"dele",
+				"deleteAccount"
+			],
+			[
+				"for",
+				"for\tfor (…) {…} (Improved Native For-Loop)"
+			],
+			[
+				"decli",
+				"declineButtonText"
+			],
+			[
+				"confirm",
+				"confirmationMessage"
+			],
+			[
+				"conf",
+				"confirmationMessage"
+			],
+			[
+				"cons",
+				"consumedShares"
+			],
+			[
+				"node",
+				"nodeForSecretId"
+			],
+			[
+				"skip",
+				"skipSetState"
+			],
+			[
+				"bottomDrop",
+				"bottomDropTarget"
+			],
+			[
+				"acti",
+				"activateSearch"
+			],
+			[
+				"e",
+				"e"
+			],
+			[
+				"access",
+				"accessAndShare"
+			],
+			[
+				"newUser",
+				"newUserTabId"
+			],
+			[
+				"setT",
+				"setTab"
+			],
+			[
+				"titl",
+				"titleUndoData"
+			],
+			[
+				"ac",
+				"activeNode"
+			],
+			[
+				"sync",
+				"syncClientData"
+			],
+			[
+				"existin",
+				"existingUser"
+			],
+			[
+				"han",
+				"handleHeadingKeyUp"
+			],
+			[
+				"io",
+				"io"
+			],
+			[
+				"syn",
+				"syncWithServer"
+			],
+			[
+				"Ex",
+				"ExportOverlay"
+			],
+			[
+				"Pub",
+				"PublishOverlay"
+			],
+			[
+				"Note",
+				"NoteSettingsOverlay"
+			],
+			[
+				"redo",
+				"redoCommands"
+			],
+			[
+				"repl",
+				"replaceNodes"
+			],
+			[
+				"upda",
+				"updatedTextNode"
+			],
+			[
+				"is",
+				"isDragValid"
+			],
+			[
+				"sa",
+				"savedSelection"
+			],
+			[
+				"co",
+				"costs"
+			],
+			[
+				"str",
+				"strings"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/opt/dev/notebase/devops/README.md",
+			"settings":
+			{
+				"buffer_size": 24,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/bin/backup",
+			"settings":
+			{
+				"buffer_size": 1154,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/bin/deploy",
+			"settings":
+			{
+				"buffer_size": 3322,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/scripts/gcloud-startup-script.sh",
+			"settings":
+			{
+				"buffer_size": 219,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/scripts/cli-deploy-ansible.sh",
+			"settings":
+			{
+				"buffer_size": 272,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/scripts/gcloud-generic-server.sh",
+			"settings":
+			{
+				"buffer_size": 2834,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/scripts/cli-deploy.sh",
+			"settings":
+			{
+				"buffer_size": 252,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/scripts/gcloud-backup.sh",
+			"settings":
+			{
+				"buffer_size": 1609,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/scripts/gcloud-post-boot.sh",
+			"settings":
+			{
+				"buffer_size": 367,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/scripts/gcloud-update-dns.sh",
+			"settings":
+			{
+				"buffer_size": 1170,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/default_files/capfile.rb",
+			"settings":
+			{
+				"buffer_size": 801,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/data_files/ansible_hosts",
+			"settings":
+			{
+				"buffer_size": 76,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/data_files/capfile",
+			"settings":
+			{
+				"buffer_size": 747,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/opt/dev/notebase/devops/scripts/repo-config-handler.sh",
+			"settings":
+			{
+				"buffer_size": 151,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript (Babel)"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"javascript",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"update",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"javasc",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"upgra",
+				"Package Control: Upgrade Package"
+			],
+			[
+				"sql",
+				"Set Syntax: SQL"
+			],
+			[
+				"git stat",
+				"Git: Status"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"gs",
+				"Git: Status"
+			],
+			[
+				"push",
+				"Git: Push"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 120.0,
+		"history":
+		[
+			"import os; os.getenv('PATH')",
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/opt/dev/notebase/devops"
+	],
+	"file_history":
+	[
+		"/opt/dev/notebase/notebase-web-app/.git/config",
+		"/opt/dev/notebase/notebase-web-app/test/misc/test_lookup.js",
+		"/opt/dev/notebase/notebase-web-app/client/js-public/public.js",
+		"/opt/dev/notebase/notebase-web-app/server/views/site_types/kb/site.ejs",
+		"/opt/dev/notebase/notebase-web-app/server/views/_breadcrumbs.ejs",
+		"/opt/dev/notebase/notebase-web-app/client/containers/public.jsx",
+		"/opt/dev/notebase/notebase-web-app/server/lib/init_routes.js",
+		"/opt/dev/notebase/notebase-web-app/server/views/site_types/kb/layout.ejs",
+		"/opt/dev/notebase/notebase-web-app/scripts/bootstrap_server.sh",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/project_settings_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/single_notification/notification_dropdown/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/lib/command_palette.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/tab_settings_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/due_list_settings_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/user_settings_page/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/user_settings_page/sections/debugging_section.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/bookmark_settings_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/config/default.js",
+		"/opt/dev/notebase/notebase-web-app/config/local.js",
+		"/opt/dev/notebase/notebase-web-app/client/lib/app/misc_methods.jsx",
+		"/opt/dev/notebase/notebase-web-app/server/models/customer.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/header/tabs/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/header/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/server/models/org.js",
+		"/opt/dev/notebase/notebase-web-app/server/models/user.js",
+		"/opt/dev/notebase/notebase-web-app/client/js/user.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/main_editor_ctrl/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/node_indicators/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/import_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/permissions_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/server/lib/generic_model.js",
+		"/opt/dev/notebase/notebase-web-app/test/misc/test-import-parsing.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/nodes/nodes-top-bar/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/nodes/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/shares_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/node_meta/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/main_editor_preview/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/nodes/current-node/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/js/group.js",
+		"/opt/dev/notebase/notebase-web-app/client/js/org.js",
+		"/opt/dev/notebase/notebase-web-app/server/controllers/xhr_endpoints.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/organizations_page/sections/manage_users_section.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/org_switcher/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/organizations_page/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/index.js",
+		"/opt/dev/notebase/notebase-web-app/server/lib/boot.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/orgs_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/organizations_page/sections/settings_section.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/user_settings_page/sections/settings_section.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/sidebar/comments/comment_dropdown/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/user_settings_page/sections/notifications_section.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/single_notification/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/server/models/share.js",
+		"/opt/dev/notebase/notebase-web-app/client/mixins/mixins.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/lib/app/tab_methods.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/header/tab/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/lib/app/editor_methods.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/js/app-init.js",
+		"/opt/dev/notebase/notebase-web-app/client/lib/app/file_methods.jsx",
+		"/opt/dev/notebase/notebase-web-app/public/static/util_iframe.js",
+		"/opt/dev/notebase/notebase-web-app/public/static/util_iframe.html",
+		"/opt/dev/notebase/notebase-web-app/public/static/cetest.html",
+		"/opt/dev/notebase/notebase-web-app/server/controllers/misc.js",
+		"/opt/dev/notebase/notebase-web-app/shared/constants.js",
+		"/opt/dev/notebase/notebase-web-app/client/endpoints/app.js",
+		"/opt/dev/notebase/notebase-web-app/worker.js",
+		"/opt/dev/notebase/notebase-web-app/server/lib/notifier.js",
+		"/opt/dev/notebase/notebase-web-app/server/lib/syncer.js",
+		"/opt/dev/notebase/notebase-web-app/server/lib/distributor.js",
+		"/opt/dev/notebase/notebase-web-app/server/controllers/special_methods.js",
+		"/opt/dev/notebase/notebase-web-app/server/lib/common_model.js",
+		"/opt/dev/levelup/levelupify/cli-test/index.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/sidebar/latest_activity/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/server/lib/base_model.js",
+		"/opt/dev/notebase/notebase-web-app/server/models/node.js",
+		"/opt/dev/notebase/notebase-web-app/server/models/org_invite.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/user_settings_page/sections/billing_history_section.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/organizations_page/sections/billing_history_section.jsx",
+		"/opt/dev/notebase/notebase-web-app/server/controllers/xhr_methods.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/markdown_editor/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/main_editor/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/server/lib/ws.js",
+		"/opt/dev/notebase/notebase-web-app/client/lib/app/comm_methods.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/stylesheets/_base.css",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/styles.css",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/pages/user_settings_page/sections/profile_section.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/user_settings_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/tree_node/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/inbox/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/sidebar/inbox/styles.css",
+		"/opt/dev/notebase/notebase-web-app/client/components/sidebar/inbox/index.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/share_access_level/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/share_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/js/text.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/sidebar/navigator/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/wrapper/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/sidebar/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/js-modules/shortcuts.js",
+		"/opt/dev/notebase/notebase-web-app/client/lib/key_commands.jsx",
+		"/opt/dev/notebase/notebase-web-app/misc/notes.txt",
+		"/opt/dev/notebase/notebase-web-app/client/components/switcher/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/js/keys.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/bullet/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/lib/app/drag_methods.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/lib/app/lifecycle_methods.jsx",
+		"/opt/dev/notebase/notebase-web-app/package.json",
+		"/opt/dev/notebase/notebase-web-app/client/components/org_switcher/styles.css",
+		"/opt/dev/notebase/notebase-web-app/client/components/avatar/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/misc/db_stuff.sql",
+		"/opt/dev/notebase/notebase-web-app/client/js/misc.js",
+		"/opt/dev/notebase/notebase-web-app/client/js-lib/undo.js",
+		"/opt/dev/notebase/notebase-web-app/client/containers/app.jsx",
+		"/opt/dev/notebase/notebase-web-app/server/models/tab.js",
+		"/opt/dev/notebase/notebase-web-app/server/models/org_user.js",
+		"/opt/dev/notebase/notebase-web-app/client/js/org_user.js",
+		"/opt/dev/notebase/notebase-web-app/client/js/tab.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/node_item/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/js/notification.js",
+		"/opt/dev/notebase/notebase-web-app/client/js/like.js",
+		"/opt/dev/notebase/notebase-web-app/client/js/comment.js",
+		"/opt/dev/notebase/notebase-web-app/client/components/header/notifications/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/create_org_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/overlays/list_settings_overlay.jsx",
+		"/opt/dev/notebase/notebase-web-app/client/components/panels/index.jsx",
+		"/opt/dev/notebase/notebase-web-app/config/production.js",
+		"/opt/dev/notebase/notebase-web-app/scripts/find-dropbox-users.js",
+		"/opt/dev/notebase/notebase-web-app/scripts/reindex-es.js",
+		"/opt/dev/notebase/notebase-web-app/server/controllers/special_endpoints.js"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 158.0,
+		"where_history":
+		[
+			"",
+			"server/models",
+			"",
+			"Customer",
+			"",
+			", this.saveSuccessCallback",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"delete",
+			"'), e => {",
+			"remote_id",
+			"nodes",
+			"orgNodes",
+			"last node",
+			"at least one node",
+			"Make sure",
+			"callback",
+			"delete last ",
+			"delete last node",
+			"NEW",
+			"convert-tree-to-note",
+			"convertTreeToNote",
+			"updatedNode",
+			"between",
+			"ng-hover",
+			"embedded",
+			"headingForUserOrOrg",
+			"root-heading",
+			"handlePaste",
+			"sendfile",
+			"require",
+			"require_invite",
+			"placeholder",
+			"NodesTopBar",
+			"// edit butt",
+			"availableShares",
+			"function",
+			"'cc'",
+			"downgrade",
+			"Enterprice",
+			"syncClientData",
+			"PlansSection",
+			"factory",
+			"q",
+			"Logout",
+			"Org.isOwner",
+			".profile-picture",
+			"<Avatar",
+			"gravatar",
+			".key",
+			".container",
+			"shortid",
+			"shortId",
+			"^\\s+",
+			"\\s+",
+			"That invite code",
+			"http://www.note",
+			"web_url_prefix",
+			"setItem",
+			"Username and password must be non",
+			"/auth",
+			".login",
+			"/login",
+			"login",
+			"org_id",
+			"extras",
+			"ng-hover",
+			"errorFor",
+			"Create team",
+			"share.users",
+			"orgname",
+			"Manage teams",
+			"console.log",
+			"orgTabId",
+			"orgTabs",
+			"currentUser",
+			"headingFor",
+			"orgTabs",
+			"orgHead",
+			"orgTabs",
+			"headingFor",
+			".heading",
+			"updated_at",
+			"sentry",
+			"log_exceptions",
+			"orgTabs",
+			"settings.",
+			"sets",
+			"authorized",
+			"this.data",
+			"this.currentUser",
+			"applyChanges",
+			"get_comments",
+			"syncData:",
+			"applyTrans",
+			"syncData",
+			"operation:",
+			"_this",
+			"Manage teams",
+			"getConf",
+			"Misc",
+			"Delete team",
+			"resendIn",
+			".isOwner",
+			"userIds",
+			"Access rights",
+			"history",
+			"Boolean",
+			"app-styles",
+			"updatedNodes",
+			"updatedNode",
+			"consumedShares",
+			".sets",
+			"decorateNodesWithAccessLevel:",
+			".sets",
+			"res.body",
+			"Misc",
+			"app.login",
+			"'authenticate'",
+			"token =",
+			"token:",
+			"'token'",
+			"Setting token to",
+			"'token'",
+			"token",
+			"token:",
+			"Misc.j",
+			"currentShare",
+			"console.log",
+			"handleTitleBlur:",
+			"handleTitleBlur {",
+			"handleTitleBlur(",
+			"UNDO:",
+			"isUndoOperation",
+			"skipFlushUndo",
+			"bump"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"'), wrapCommand(app, e => {",
+			"",
+			".....",
+			"data",
+			"currentUser",
+			"res",
+			"this",
+			", () => {",
+			"const \\1 =",
+			"combokeys.bindGlobal(\\1, e => {",
+			"._skipFlushUndo",
+			"webOverrides:",
+			"\\2: \\1",
+			"\\2: \\1,",
+			"',",
+			"'",
+			"}': ",
+			"  '\\\\u",
+			"}",
+			"\\\\u{",
+			"\\\\{",
+			"\\{",
+			"",
+			"Notification",
+			"notification",
+			"like",
+			"original",
+			"params.entities.nodes",
+			",",
+			"",
+			"params.entities.nodes",
+			" ",
+			"Node.a2o",
+			"state.entities.nodes",
+			"app.state.entities.orgs",
+			"entities.customers",
+			"entities.tabs",
+			"entities.orgs",
+			"entities.nodes",
+			"};\\n\\n  self.\\1 = function",
+			"self.\\1 = function",
+			"Common.find",
+			"};\\n\\n  self.\\1 = function",
+			"self.\\1 = function",
+			"};\\n\\n  self.\\1 = function",
+			"self.\\1 = function",
+			"self.\\1 = function(",
+			"};\\n\\n  self.\\1 = function(",
+			"self.\\1 = function(",
+			"org",
+			"};\\n\\n  self.\\1 = function(",
+			"self.\\1 = function(",
+			"self.",
+			"schema",
+			"model, db, schema, table",
+			"('> .indented > .indent-wrapper > ",
+			"this.props.rootNode",
+			"this.rootNode()",
+			"props.rootNode()",
+			"props.app.rootNode()",
+			"'> .indented > .node-content",
+			"@import \"../_shared/base.scss\"",
+			"this.state",
+			"node",
+			"this",
+			",",
+			": ",
+			"app.logger.",
+			"finished",
+			"upcoming",
+			"this.props.search.state.",
+			"this.props.search.state",
+			"className=",
+			"timestamp with time zone",
+			"character varying",
+			"this.props.app.headingForUserOrOrg()",
+			"resetInfoSent",
+			"emailHarvested",
+			"forgotPassword",
+			"registerForShare",
+			"authForShare",
+			"node/levelup",
+			"log.error(e)",
+			"'shepherd-button-secondary'",
+			"\"https://notebase.io/static",
+			"\"http://localhost:3199/",
+			"\"https://notebase.io/",
+			"this.props.app.state",
+			" annonsekilde",
+			"advertiser_source",
+			"AdvertiserSource",
+			"adtype",
+			"Adtype",
+			"passback",
+			"Passback",
+			"passback",
+			"Passback",
+			"customer",
+			"Customer",
+			"url_mapping",
+			"UrlMapping",
+			"site",
+			"Site",
+			"mapping",
+			"Mapping",
+			"mapping",
+			"Mapping",
+			"mapping",
+			"Mapping",
+			"className=",
+			"\"\\1\"",
+			"\"$1\"",
+			"\"\\1\"",
+			"\"",
+			"\\n",
+			"\\n[",
+			"essens_tmpl_83",
+			"essens_tmpl_80",
+			"\\n",
+			"essens_tmpl_83",
+			"essens_tmpl_82",
+			"essens_tmpl_81",
+			"essens_tmpl_80",
+			".",
+			"x",
+			"options",
+			"",
+			"minieditor"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 13,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/opt/dev/notebase/devops/README.md",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 24,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								10,
+								10
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown Extended/Syntaxes/Markdown Extended.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 13,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/opt/dev/notebase/devops/bin/backup",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1154,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1154,
+								1154
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/opt/dev/notebase/devops/bin/deploy",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3322,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3004,
+								3004
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/opt/dev/notebase/devops/scripts/gcloud-startup-script.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 219,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								85,
+								85
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/opt/dev/notebase/devops/scripts/cli-deploy-ansible.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 272,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								145,
+								145
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/opt/dev/notebase/devops/scripts/gcloud-generic-server.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								241,
+								241
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"transient_mode_on": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/opt/dev/notebase/devops/scripts/cli-deploy.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								137,
+								137
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/opt/dev/notebase/devops/scripts/gcloud-backup.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1609,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								250,
+								250
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/opt/dev/notebase/devops/scripts/gcloud-post-boot.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 367,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								254,
+								254
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/opt/dev/notebase/devops/scripts/gcloud-update-dns.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1170,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								100,
+								100
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax",
+							"transient_mode_on": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/opt/dev/notebase/devops/default_files/capfile.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 801,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								471,
+								471
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/opt/dev/notebase/devops/data_files/ansible_hosts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 76,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								75,
+								75
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/opt/dev/notebase/devops/data_files/capfile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 747,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								641,
+								641
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "/opt/dev/notebase/devops/scripts/repo-config-handler.sh",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 151,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								138,
+								138
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close"
+							],
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/ShellScript/Shell-Unix-Generic.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 70.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 126.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "devops.sublime-project",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"repo",
+				"scripts/repo-config-handler.sh"
+			],
+			[
+				"defa",
+				"data_files/capfile"
+			],
+			[
+				"scripts",
+				"scripts/gcloud-update-dns.sh"
+			],
+			[
+				"script",
+				"scripts/cli-deploy.sh"
+			],
+			[
+				"bin",
+				"bin/deploy"
+			],
+			[
+				"read",
+				"README.md"
+			],
+			[
+				"shortcu",
+				"client/js-modules/shortcuts.js"
+			],
+			[
+				"shortcuts",
+				"client/js-modules/shortcuts.js"
+			],
+			[
+				"dbstuff",
+				"misc/db_stuff.sql"
+			],
+			[
+				"node",
+				"client/js/node.js"
+			],
+			[
+				"key",
+				"client/lib/key_commands.jsx"
+			],
+			[
+				"miscme",
+				"client/lib/app/misc_methods.jsx"
+			],
+			[
+				"db",
+				"misc/db_stuff.sql"
+			],
+			[
+				"context",
+				"client/components/node_context_menu/index.jsx"
+			],
+			[
+				"keys",
+				"client/js/keys.js"
+			],
+			[
+				"nodes",
+				"client/components/nodes/index.jsx"
+			],
+			[
+				"nodeitem",
+				"client/components/node_item/index.jsx"
+			],
+			[
+				"packa",
+				"package.json"
+			],
+			[
+				"bootstrap",
+				"support/docker/node/bootstrap.sh"
+			],
+			[
+				"dockercom",
+				"docker-compose.yml"
+			],
+			[
+				"package",
+				"package.json"
+			],
+			[
+				"dockerfile",
+				"support/docker/node/Dockerfile"
+			],
+			[
+				"siteconf",
+				"support/docker/nginx/site.conf"
+			],
+			[
+				"docker",
+				"docker-compose.yml"
+			],
+			[
+				"publicpages",
+				"client/components/public_pages/index.jsx"
+			],
+			[
+				"plans",
+				"client/components/panels/pages/organizations_page/sections/plans_section.jsx"
+			],
+			[
+				"sidebar",
+				"client/components/sidebar/index.jsx"
+			],
+			[
+				"latest",
+				"client/components/sidebar/latest_activity/index.jsx"
+			],
+			[
+				"avatar",
+				"client/components/avatar/index.jsx"
+			],
+			[
+				"shares",
+				"client/components/panels/overlays/shares_overlay.jsx"
+			],
+			[
+				"panelsstyles",
+				"client/components/panels/styles.css"
+			],
+			[
+				"xhrme",
+				"server/controllers/xhr_methods.js"
+			],
+			[
+				"profile",
+				"client/components/panels/pages/user_settings_page/sections/profile_section.jsx"
+			],
+			[
+				"xhrend",
+				"server/controllers/xhr_endpoints.js"
+			],
+			[
+				"mixin",
+				"client/components/panels/pages/mixins/plans.jsx"
+			],
+			[
+				"settings",
+				"client/components/panels/pages/organizations_page/sections/settings_section.jsx"
+			],
+			[
+				"commme",
+				"client/lib/app/comm_methods.jsx"
+			],
+			[
+				"ws",
+				"server/lib/ws.js"
+			],
+			[
+				"mixinsplans",
+				"client/components/panels/pages/mixins/plans.jsx"
+			],
+			[
+				"planssection",
+				"client/components/panels/pages/organizations_page/sections/plans_section.jsx"
+			],
+			[
+				"sharedplans",
+				"client/components/panels/pages/shared/plans_section.jsx"
+			],
+			[
+				"usermen",
+				"client/components/panels/menus/user_menu/index.jsx"
+			],
+			[
+				"currentnodestyl",
+				"client/components/nodes/current-node/styles.css"
+			],
+			[
+				"userprofile",
+				"client/components/header/user_profile/index.jsx"
+			],
+			[
+				"header",
+				"client/components/header/index.jsx"
+			],
+			[
+				"orgswi",
+				"client/components/org_switcher/styles.css"
+			],
+			[
+				"panelscss",
+				"client/components/panels/styles.css"
+			],
+			[
+				"orgswit",
+				"client/components/org_switcher/styles.css"
+			],
+			[
+				"org",
+				"client/js/org.js"
+			],
+			[
+				"orgswitcher",
+				"client/components/org_switcher/styles.css"
+			],
+			[
+				"fileme",
+				"client/lib/app/file_methods.jsx"
+			],
+			[
+				"xhrmeth",
+				"server/controllers/xhr_methods.js"
+			],
+			[
+				"usersettings",
+				"client/components/panels/pages/user_settings_page/sections/settings_section.jsx"
+			],
+			[
+				"user",
+				"server/models/user.js"
+			],
+			[
+				"misc",
+				"client/js/misc.js"
+			],
+			[
+				"base",
+				"client/stylesheets/_base.css"
+			],
+			[
+				"keycommands",
+				"client/lib/key_commands.jsx"
+			],
+			[
+				"wrapper",
+				"client/components/wrapper/index.jsx"
+			],
+			[
+				"billing",
+				"client/components/panels/pages/user_settings_page/sections/billing_history_section.jsx"
+			],
+			[
+				"xhr",
+				"server/controllers/xhr_methods.js"
+			],
+			[
+				"manage",
+				"client/components/panels/pages/organizations_page/sections/manage_users_section.jsx"
+			],
+			[
+				"util",
+				"server/lib/util.js"
+			],
+			[
+				"routes",
+				"server/lib/init_routes.js"
+			],
+			[
+				"prod",
+				"config/production.js"
+			],
+			[
+				"controllmisc",
+				"server/controllers/misc.js"
+			],
+			[
+				"boot",
+				"server/lib/boot.js"
+			],
+			[
+				"iframe",
+				"public/static/util_iframe.html"
+			],
+			[
+				"modeluser",
+				"server/models/user.js"
+			],
+			[
+				"public",
+				"public/static/cetest.html"
+			],
+			[
+				"initroutes",
+				"server/lib/init_routes.js"
+			],
+			[
+				"inboxstyl",
+				"client/components/sidebar/inbox/styles.css"
+			],
+			[
+				"sidebarinb",
+				"client/components/sidebar/inbox/index.js"
+			],
+			[
+				"inbox",
+				"client/components/inbox/index.jsx"
+			],
+			[
+				"sidebarinbox",
+				"client/components/sidebar/inbox/index.js"
+			],
+			[
+				"nodeindi",
+				"client/components/node_indicators/index.jsx"
+			],
+			[
+				"nodemeta",
+				"client/components/node_meta/index.jsx"
+			],
+			[
+				"bullet",
+				"client/components/bullet/index.jsx"
+			],
+			[
+				"treenode",
+				"client/components/tree_node/index.jsx"
+			],
+			[
+				"clientjs",
+				"client/js/tab.js"
+			],
+			[
+				"undo",
+				"client/js-lib/undo.js"
+			],
+			[
+				"mixins",
+				"client/mixins/mixins.jsx"
+			],
+			[
+				"init",
+				"server/lib/init_routes.js"
+			],
+			[
+				"createorg",
+				"client/components/panels/overlays/create_org_overlay.jsx"
+			],
+			[
+				"shareaccess",
+				"client/components/share_access_level/index.jsx"
+			],
+			[
+				"gitig",
+				".gitignore"
+			],
+			[
+				"shareoverl",
+				"client/components/panels/overlays/share_overlay.jsx"
+			],
+			[
+				"usermenu",
+				"client/components/panels/menus/user_menu/index.jsx"
+			],
+			[
+				"usersettingspage",
+				"client/components/panels/pages/user_settings_page/index.jsx"
+			],
+			[
+				"syncer",
+				"server/lib/syncer.js"
+			],
+			[
+				"tab",
+				"client/js/tab.js"
+			],
+			[
+				"tabme",
+				"client/lib/app/tab_methods.jsx"
+			],
+			[
+				"creatorg",
+				"client/components/panels/overlays/create_org_overlay.jsx"
+			],
+			[
+				"headertab",
+				"client/components/header/tab/index.jsx"
+			],
+			[
+				"orguser",
+				"server/models/org_user.js"
+			],
+			[
+				"local",
+				"config/local.js"
+			],
+			[
+				"panelsinde",
+				"client/components/panels/index.jsx"
+			],
+			[
+				"orgpage",
+				"client/components/panels/pages/organizations_page/index.jsx"
+			],
+			[
+				"createo",
+				"client/components/panels/overlays/create_org_overlay.jsx"
+			],
+			[
+				"orgswitch",
+				"client/components/org_switcher/index.jsx"
+			],
+			[
+				"orginvite",
+				"server/models/org_invite.js"
+			],
+			[
+				"orgoverl",
+				"client/components/panels/overlays/orgs_overlay.jsx"
+			],
+			[
+				"clientorg",
+				"client/js/org.js"
+			],
+			[
+				"client",
+				"client/js/user.js"
+			],
+			[
+				"share",
+				"client/components/panels/overlays/share_overlay.jsx"
+			],
+			[
+				"panelorg",
+				"client/components/panels/overlays/orgs_overlay.jsx"
+			],
+			[
+				"ws.js",
+				"server/lib/ws.js"
+			],
+			[
+				"special",
+				"server/controllers/special_methods.js"
+			],
+			[
+				"navigator",
+				"client/components/sidebar/navigator/index.jsx"
+			],
+			[
+				"giti",
+				".gitignore"
+			],
+			[
+				"admin",
+				"public/admin.html"
+			],
+			[
+				"webpack",
+				"dev/webpack.config.js"
+			],
+			[
+				"webpackprod",
+				"dev/webpack.production.config.js"
+			],
+			[
+				"activit",
+				"client/components/sidebar/latest_activity/index.jsx"
+			],
+			[
+				"basemodel",
+				"server/lib/base_model.js"
+			],
+			[
+				"common",
+				"server/lib/common_model.js"
+			],
+			[
+				"lifec",
+				"client/lib/app/lifecycle_methods.jsx"
+			],
+			[
+				"depl",
+				"bin/deploy"
+			],
+			[
+				"tabjsx",
+				"client/components/header/tab/index.jsx"
+			],
+			[
+				"deploy",
+				"bin/deploy"
+			],
+			[
+				"production",
+				"config/production.js"
+			],
+			[
+				"capfile",
+				"capfile"
+			],
+			[
+				"shareover",
+				"client/components/panels/overlays/share_overlay.jsx"
+			],
+			[
+				"shareoverla",
+				"client/components/panels/overlays/shares_overlay.jsx"
+			],
+			[
+				"life",
+				"client/lib/app/lifecycle_methods.jsx"
+			],
+			[
+				"shareoverlay",
+				"client/components/panels/overlays/share_overlay.jsx"
+			],
+			[
+				"mailer",
+				"server/lib/mailer.js"
+			],
+			[
+				"clientnode",
+				"client/js/node.js"
+			],
+			[
+				"bookmark",
+				"client/components/panels/overlays/bookmark_settings_overlay.jsx"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "notebase",
+		"selected_items":
+		[
+			[
+				"notebase",
+				"/opt/dev/notebase/notebase-web-app/support/notebase.sublime-project"
+			],
+			[
+				"www",
+				"/opt/dev/levelup/ibooking/www/support/www.sublime-project"
+			],
+			[
+				"rois",
+				"/opt/dev/levelup/levelup-clients/roisland-main-web/support/roisland-main-web.sublime-project"
+			],
+			[
+				"roisland",
+				"/opt/dev/levelup/levelup-clients/roisland-main-web/support/roisland-main-web.sublime-project"
+			],
+			[
+				"notebase web",
+				"/opt/dev/notebase/notebase-web/support/notebase-web.sublime-project"
+			],
+			[
+				"med ung",
+				"/opt/dev/levelup/levelup-clients/med-ungdom-i-fokus-web/support/med-ungdom-i-fokus-web.sublime-project"
+			],
+			[
+				"notebase ",
+				"/opt/dev/notebase/notebase-web/support/notebase-web.sublime-project"
+			],
+			[
+				"file sy",
+				"/opt/dev/levelup/levelupify/file-system-core/support/file-system-core.sublime-project"
+			],
+			[
+				"client utils",
+				"/opt/dev/levelup/levelupify/levelup-client-utils/support/levelup-client-utils.sublime-project"
+			],
+			[
+				"utils",
+				"/opt/dev/levelup/levelupify/levelup-utils/support/levelup-utils.sublime-project"
+			],
+			[
+				"file",
+				"/opt/dev/levelup/levelupify/file-system-core/support/file-system-core.sublime-project"
+			],
+			[
+				"dev",
+				"/opt/dev/levelup/levelupify/levelup-devops/support/levelop-devops.sublime-project"
+			],
+			[
+				"devops",
+				"/opt/dev/levelup/levelupify/levelup-devops/support/levelop-devops.sublime-project"
+			],
+			[
+				"levelup client",
+				"/opt/dev/levelup/levelupify/levelup-client-utils/support/levelup-client-utils.sublime-project"
+			],
+			[
+				"grefsen",
+				"/opt/dev/levelup/levelup-clients/grefsen-stasjon/support/grefsen-stasjon.sublime-project"
+			],
+			[
+				"gref",
+				"/opt/dev/levelup/levelup-clients/grefsen-stasjon/support/grefsen-stasjon.sublime-project"
+			],
+			[
+				"vaskerhvitt",
+				"/opt/dev/levelup/levelup-clients/vaskerhvitt-main-web/support/vaskerhvitt-main-web.sublime-project"
+			],
+			[
+				"vasker",
+				"/opt/dev/levelup/levelup-clients/vaskerhvitt-main-web/support/vaskerhvitt-main-web.sublime-project"
+			],
+			[
+				"vasker ",
+				"/opt/dev/levelup/levelup-clients/vaskerhvitt-main-web/support/vaskerhvitt-main-web.sublime-project"
+			],
+			[
+				"cli",
+				"/opt/dev/levelup/levelupify/levelup-cli/support/levelup-cli.sublime-project"
+			],
+			[
+				"megler",
+				"/opt/dev/levelup/levelupify/meglersystemet-integration/support/meglersystemet-integration.sublime-project"
+			],
+			[
+				"api",
+				"/opt/dev/levelup/levelupify/levelup-api-server/support/levelup-api-server.sublime-project"
+			],
+			[
+				"api ser",
+				"/opt/dev/levelup/levelupify/levelup-api-server/support/levelup-api-server.sublime-project"
+			],
+			[
+				"api server",
+				"/opt/dev/levelup/levelupify/levelup-api-server/support/levelup-api-server.sublime-project"
+			],
+			[
+				"public",
+				"/opt/dev/levelup/levelupify/levelup-public-api-server/support/levelup-public-api-server.sublime-project"
+			],
+			[
+				"webh",
+				"/opt/dev/levelup/levelupify/levelup-webhook-handler/support/levelup-webhook-handler.sublime-project"
+			],
+			[
+				"webhook",
+				"/opt/dev/levelup/levelupify/levelup-webhook-handler/support/levelup-webhook-handler.sublime-project"
+			],
+			[
+				"web",
+				"/opt/dev/levelup/levelupify/levelup-webhook-handler/support/levelup-webhook-handler.sublime-project"
+			],
+			[
+				"login",
+				"/opt/dev/levelup/levelupify/levelup-login-web/support/levelup-login-web.sublime-project"
+			],
+			[
+				"",
+				"/opt/dev/levelup/levelupify/levelup-login-web/support/levelup-login-web.sublime-project"
+			],
+			[
+				"hma admin",
+				"/opt/dev/levelup/levelup-clients/hma-admin-web/support/hma-admin-web.sublime-project"
+			],
+			[
+				"email",
+				"/opt/dev/levelup/levelupify/levelup-email-service/support/levelup-email-service.sublime-project"
+			],
+			[
+				"login web",
+				"/opt/dev/levelup/levelupify/levelup-login-web/support/levelup-login-web.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 354.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 467.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

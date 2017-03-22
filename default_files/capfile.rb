@@ -5,21 +5,22 @@ cmd    = "runurl https://raw.githubusercontent.com/notebase/devops/master/bin/de
 common = "#{cmd} #{repo} #{branch}"
 
 # role :web_servers, "oleherland.no"
-role :web_servers, "web1.notebase.io", "web2.notebase.io"
+# role :web_servers, "web1.notebase.io", "web2.notebase.io"
+role :app_servers, "h1.notebase.io"
 
-set :user, "notebase"
+set :user, "app"
 
-desc "Deploy Notebase Web Site to production"
-task :deploy, :roles => :web_servers do
+desc "Deploy Notebase repo to production"
+task :deploy, :roles => :app_servers do
   run "#{common} prod update quiet"
 end
 
-desc "Deploy Notebase Web Site to staging"
-task :stage, :roles => :web_servers do
+desc "Deploy Notebase repo to staging"
+task :stage, :roles => :app_servers do
   run "#{common} staging update quiet"
 end
 
-desc "Deploy Notebase Web Site to development"
-task :dev, :roles => :web_servers do
+desc "Deploy Notebase repo to development"
+task :dev, :roles => :app_servers do
   run "#{common} dev update quiet"
 end

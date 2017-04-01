@@ -82,7 +82,8 @@ function clone {
 }
 
 function run_deploy_hook {
-  hook_script="${working_path}/bin/pre_deploy_hook"
+  tmp_path="${1}"
+  hook_script="${path}/${tmp_path}/bin/pre_deploy_hook"
   if [ -r ${hook_script} ]
   then
     output "Found pre deploy hook (${hook_script}), running..."
@@ -133,7 +134,9 @@ elif [ $mode == "clone" ]
 then
   cd "${path}"
   clone "${date}"
-  run_deploy_hook
+  cd "${date}"
+  run_deploy_hook "${date}"
+  cd "${path}"
   if [ -L "current" ]
   then
     rm "current"

@@ -82,13 +82,13 @@ function clone {
 }
 
 function run_deploy_hook {
-  hook_script="${working_path}/bin/deploy_hook"
+  hook_script="${working_path}/bin/pre_deploy_hook"
   if [ -r ${hook_script} ]
   then
-    output "Found repo deploy hook (${deploy_script}), handing over control..."
+    output "Found pre deploy hook (${hook_script}), running..."
     ${hook_script} ${target} ${mode}
   else
-    output "No deploy hook found in ${deploy_script}, moving on..."
+    output "No pre deploy hook found in ${hook_script}, moving on..."
   fi
 }
 

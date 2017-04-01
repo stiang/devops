@@ -1,3 +1,20 @@
+require 'json'
+conf = nil
+conf_file_name = ".notebase.json"
+begin
+  if File.file?(conf_file_name)
+    conf_file = File.read(conf_file_name)
+    conf = JSON.parse(conf_file)
+  end
+rescue
+end
+
+if not conf.is_a? Hash
+  conf = Hash.new
+end
+
+mode = conf["deploy_mode"] || "update"
+
 # Setup here
 repo   = `git ls-remote --get-url`.split(':')[1].gsub(/\.git$/, '').gsub(/[\\\n]/, '')
 branch = `git rev-parse --symbolic-full-name --abbrev-ref HEAD`.gsub(/[\\\n]/, '')
@@ -13,15 +30,15 @@ role_name = :app_servers
 
 desc "Deploy App to production"
 task :deploy, :roles => role_name do
-  run "#{common} prod update quiet"
+  run "#{common} prod #{mode} quiet"
 end
 
 desc "Deploy App to staging"
 task :stage, :roles => role_name do
-  run "#{common} staging update quiet"
+  run "#{common} staging #{mode} quiet"
 end
 
 desc "Deploy App to development"
 task :dev, :roles => role_name do
-  run "#{common} dev update quiet"
+  run "#{common} dev #{mode} quiet"
 end

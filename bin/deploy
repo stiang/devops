@@ -81,6 +81,17 @@ function clone {
   # fi
 }
 
+function run_deploy_hook {
+  hook_script="${working_path}/bin/deploy_hook"
+  if [ -r ${hook_script} ]
+  then
+    output "Found repo deploy hook (${deploy_script}), handing over control..."
+    ${hook_script} ${target} ${mode}
+  else
+    output "No deploy hook found in ${deploy_script}, moving on..."
+  fi
+}
+
 
 ##############
 # main logic #
@@ -100,6 +111,7 @@ then
 fi
 (chmod -fR g+w "${path}/logs" || true)
 
+# Update existing repo from origin (git pull)
 if [ $mode == "update" ]
 then
   if [ -L ${working_path} ]
@@ -115,10 +127,13 @@ then
   then
     clone "${working_path}"
   fi
+
+# Clone repo and set it up from scratch
 elif [ $mode == "clone" ]
 then
   cd "${path}"
   clone "${date}"
+  run_deploy_hook
   if [ -L "current" ]
   then
     rm "current"

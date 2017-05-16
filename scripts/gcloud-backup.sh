@@ -2,7 +2,7 @@
 set -e
 
 # ------------- CONFIG HERE ----------------
-project="notebase-main"
+project="stiang-main"
 backup_dir="/local/backup"
 
 

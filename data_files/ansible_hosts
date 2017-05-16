@@ -1,6 +1,5 @@
 [webservers]
-web1.notebase.io
-web2.notebase.io
+cryptotrader.grytoyr.net
 
 [dbservers]
-db1.notebase.io
+cryptotrader.grytoyr.net

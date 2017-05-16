@@ -1,8 +1,8 @@
 #/bin/bash
 set -e
 
-zone="notebase-in"
-domain="notebase.in"
+zone="grytoyr-in"
+domain="grytoyr.in"
 name="$(curl -sH 'Metadata-Flavor: Google' 'http://metadata/computeMetadata/v1/instance/hostname' | awk -F  "." '{print $1}')"
 ip="$(curl -sH 'Metadata-Flavor: Google' 'http://metadata/computeMetadata/v1/instance/network-interfaces/0/ip')"
 fullname="${name}.${domain}."

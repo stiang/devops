@@ -19,7 +19,7 @@ servers = conf["servers"] || ["dev.grytoyr.net"]
 # Setup here
 repo   = `git ls-remote --get-url`.split(':')[1].gsub(/\.git$/, '').gsub(/[\\\n]/, '')
 branch = `git rev-parse --symbolic-full-name --abbrev-ref HEAD`.gsub(/[\\\n]/, '')
-cmd    = "curl -so /tmp/dyn-deploy https://raw.githubusercontent.com/stiang/devops/master/bin/deploy && bash /tmp/dyn-deploy"
+cmd    = "curl -so /tmp/dyn-deploy https://raw.githubusercontent.com/stiang/devops/master/bin/deploy?cachebuster=#{Time.now.to_i} && bash /tmp/dyn-deploy"
 common = "#{cmd} #{repo} #{branch}"
 
 role_args = [:app_servers] + servers

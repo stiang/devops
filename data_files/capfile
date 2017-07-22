@@ -14,7 +14,7 @@ if not conf.is_a? Hash
 end
 
 mode = conf["deploy_mode"] || "update"
-servers = conf["servers"] || "dev.grytoyr.net"
+servers = conf["servers"] || ["dev.grytoyr.net"]
 
 # Setup here
 repo   = `git ls-remote --get-url`.split(':')[1].gsub(/\.git$/, '').gsub(/[\\\n]/, '')
@@ -22,7 +22,8 @@ branch = `git rev-parse --symbolic-full-name --abbrev-ref HEAD`.gsub(/[\\\n]/, '
 cmd    = "/tmp/runurl.tmp https://raw.githubusercontent.com/stiang/devops/master/bin/deploy"
 common = "#{cmd} #{repo} #{branch}"
 
-role :app_servers, servers
+role_args = [:app_servers] + servers
+role(*role_args)
 
 ssh_options[:forward_agent] = true
 

@@ -19,7 +19,7 @@ servers = conf["servers"] || ["dev.grytoyr.net"]
 # Setup here
 repo   = `git ls-remote --get-url`.split(':')[1].gsub(/\.git$/, '').gsub(/[\\\n]/, '')
 branch = `git rev-parse --symbolic-full-name --abbrev-ref HEAD`.gsub(/[\\\n]/, '')
-cmd    = "/tmp/runurl.tmp https://raw.githubusercontent.com/stiang/devops/master/bin/deploy"
+cmd    = "runurl https://raw.githubusercontent.com/stiang/devops/master/bin/deploy"
 common = "#{cmd} #{repo} #{branch}"
 
 role_args = [:app_servers] + servers

@@ -25,6 +25,7 @@ working_path="${path}/current"
 
 orig_pwd="$(pwd)"
 user="$(whoami)"
+echo "user: ${user}"
 deploy_key="/home/${user}/.ssh/${org}-deploy-key"
 quiet_option=""
 quiet_suffix=""

@@ -51,7 +51,8 @@ su postgres -c "echo 'CHECKPOINT;' | psql"
 # /sbin/fsfreeze -f /mnt/data1
 # ${cmd} "data-${hostname_short}"  --zone "${zone}" --snapshot-names "data-${hostname_short}--${datestr}"
 # /sbin/fsfreeze -u /mnt/data1
+disk_name=$(curl -sH 'Metadata-Flavor: Google' 'http://metadata/computeMetadata/v1/instance/disks/1/device-name')
 sync
 /sbin/fsfreeze -f /local
-${cmd} "root-${hostname_short}"  --zone "${zone}" --snapshot-names "local-${hostname_short}--${datestr}"
+${cmd} "${disk_name}"  --zone "${zone}" --snapshot-names "local-${hostname_short}--${datestr}"
 /sbin/fsfreeze -u /local

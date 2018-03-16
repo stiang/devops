@@ -20,7 +20,7 @@ cd ${backup_dir}
 mkdir -p ${backup_dir}/db
 
 # Backup MySQL
-mysqldump --all-databases > ${backup_dir}/db/mysql--${datestr}.sql
+# mysqldump --all-databases > ${backup_dir}/db/mysql--${datestr}.sql
 
 # Backup Postgres
 pgfile="${backup_dir}/db/postgres--${datestr}.sql"
@@ -33,7 +33,7 @@ chown root:root "${pgfile}"
 rsync -a --exclude .git --exclude node_modules --exclude .npm --exclude .node-gyp --exclude data /home ${backup_dir}
 
 # Backup /root
-rsync -a --exclude .git --exclude node_modules --exclude .npm --exclude .node-gyp --exclude from-hetzner /root ${backup_dir}
+rsync -a --exclude .git --exclude node_modules --exclude .npm --exclude .node-gyp /root ${backup_dir}
 
 # Backup /etc
 rsync -a /etc ${backup_dir}
@@ -47,11 +47,11 @@ cd ${orig_dir}
 su postgres -c "echo 'CHECKPOINT;' | psql"
 
 # Create the actual snapshots
+# sync
+# /sbin/fsfreeze -f /mnt/data1
+# ${cmd} "data-${hostname_short}"  --zone "${zone}" --snapshot-names "data-${hostname_short}--${datestr}"
+# /sbin/fsfreeze -u /mnt/data1
 sync
-/sbin/fsfreeze -f /mnt/data1
-${cmd} "data-${hostname_short}"  --zone "${zone}" --snapshot-names "data-${hostname_short}--${datestr}"
-/sbin/fsfreeze -u /mnt/data1
-sync
-/sbin/fsfreeze -f /local
-${cmd} "local-${hostname_short}"  --zone "${zone}" --snapshot-names "local-${hostname_short}--${datestr}"
-/sbin/fsfreeze -u /local
+/sbin/fsfreeze -f /
+${cmd} "root-${hostname_short}"  --zone "${zone}" --snapshot-names "local-${hostname_short}--${datestr}"
+/sbin/fsfreeze -u /

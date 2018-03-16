@@ -52,6 +52,6 @@ su postgres -c "echo 'CHECKPOINT;' | psql"
 # ${cmd} "data-${hostname_short}"  --zone "${zone}" --snapshot-names "data-${hostname_short}--${datestr}"
 # /sbin/fsfreeze -u /mnt/data1
 sync
-/sbin/fsfreeze -f /
+/sbin/fsfreeze -f /local
 ${cmd} "root-${hostname_short}"  --zone "${zone}" --snapshot-names "local-${hostname_short}--${datestr}"
-/sbin/fsfreeze -u /
+/sbin/fsfreeze -u /local

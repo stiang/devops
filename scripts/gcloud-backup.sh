@@ -15,9 +15,9 @@ hostname_short=$(hostname --short)
 
 orig_dir=$(pwd)
 
-cd ${backup_dir}
-
 mkdir -p ${backup_dir}/db
+
+cd ${backup_dir}
 
 # Backup MySQL
 # mysqldump --all-databases > ${backup_dir}/db/mysql--${datestr}.sql

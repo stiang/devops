@@ -9,7 +9,7 @@ backup_dir="/local/backup"
 # ------------- NO CHANGES BELOW THIS LINE ---------------
 datestr=$(date "+%Y-%m-%d-%H-%M-%N")
 cmd="gcloud compute disks snapshot"
-zone=$(curl -sH 'Metadata-Flavor: Google' 'http://metadata/computeMetadata/v1/instance/zone' | ruby -e 'puts gets.split("/").last')
+zone=$(curl -sH 'Metadata-Flavor: Google' 'http://metadata/computeMetadata/v1/instance/zone' | perl -ne "@a = split '/'; print @a[-1]")
 
 hostname_short=$(hostname --short)
 

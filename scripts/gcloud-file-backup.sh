@@ -23,11 +23,11 @@ cd ${backup_dir}
 # mysqldump --all-databases > ${backup_dir}/db/mysql--${datestr}.sql
 
 # Backup Postgres
-pgfile="${backup_dir}/db/postgres--${datestr}.sql"
-touch "${pgfile}"
-chown postgres:postgres "${pgfile}"
-su postgres -c "pg_dumpall > ${pgfile}"
-chown root:root "${pgfile}"
+# pgfile="${backup_dir}/db/postgres--${datestr}.sql"
+# touch "${pgfile}"
+# chown postgres:postgres "${pgfile}"
+# su postgres -c "pg_dumpall > ${pgfile}"
+# chown root:root "${pgfile}"
 
 # Backup home dirs
 rsync -a --exclude .git --exclude node_modules --exclude .npm --exclude .node-gyp --exclude data /home ${backup_dir}
@@ -44,7 +44,7 @@ rsync -a /var/spool/cron/crontabs ${backup_dir}
 cd ${orig_dir}
 
 # Make the databases as consistent as possible
-su postgres -c "echo 'CHECKPOINT;' | psql"
+# su postgres -c "echo 'CHECKPOINT;' | psql"
 
 # Create the actual snapshots
 # sync
@@ -53,6 +53,6 @@ su postgres -c "echo 'CHECKPOINT;' | psql"
 # /sbin/fsfreeze -u /mnt/data1
 disk_name=$(curl -sH 'Metadata-Flavor: Google' 'http://metadata/computeMetadata/v1/instance/disks/1/device-name')
 sync
-/sbin/fsfreeze -f /local
+# /sbin/fsfreeze -f /local
 ${cmd} "${disk_name}"  --zone "${zone}" --snapshot-names "local-${hostname_short}--${datestr}"
-/sbin/fsfreeze -u /local
+# /sbin/fsfreeze -u /local

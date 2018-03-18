@@ -54,5 +54,5 @@ cd ${orig_dir}
 disk_name=$(curl -sH 'Metadata-Flavor: Google' 'http://metadata/computeMetadata/v1/instance/disks/1/device-name')
 sync
 # /sbin/fsfreeze -f /local
-${cmd} "${disk_name}"  --zone "${zone}" --snapshot-names "local-file-${hostname_short}--${datestr}"
+${cmd} "${disk_name}"  --zone "${zone}" --snapshot-names "local-full-${hostname_short}--${datestr}"
 # /sbin/fsfreeze -u /local

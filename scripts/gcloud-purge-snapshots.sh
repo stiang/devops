@@ -4,7 +4,7 @@ set -e
 HOSTNAME_SHORT=$(hostname --short)
 
 # Get a list of all discs with prefix "local-"
-SNAPSHOT_LIST_LOCAL="$(gcloud compute snapshots list --filter="name~'local-${HOSTNAME_SHORT}-.*'" --uri)"
+SNAPSHOT_LIST_LOCAL="$(gcloud compute snapshots list --filter="name~'local-[^-]+-${HOSTNAME_SHORT}-.*'" --uri)"
 
 # loop trough local list
 echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do

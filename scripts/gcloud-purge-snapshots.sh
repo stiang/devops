@@ -40,7 +40,7 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
       # #Delete snapshot
       # echo "$(gcloud compute snapshots delete ${SNAPSHOT_NAME} --quiet)"
       echo "Adding: ${SNAPSHOT_NAME}"
-      SNAPSHOTS_TO_DELETE="${SNAPSHOTS_TO_DELETE} ${SNAPSHOT_NAME}"
+      SNAPSHOTS_TO_DELETE="${SNAPSHOT_NAME} ${SNAPSHOTS_TO_DELETE}"
     fi
   fi
 

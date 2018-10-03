@@ -44,7 +44,7 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
     fi
   fi
 
-  echo "New value: ${SNAPSHOTS_TO_DELETE}"
+  # echo "New value: ${SNAPSHOTS_TO_DELETE}"
 done
 
 echo "BEFORE"

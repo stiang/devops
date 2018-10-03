@@ -45,6 +45,9 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
 
 done
 
+echo "BEFORE"
+echo "<${SNAPSHOTS_TO_DELETE}>"
+echo "AFTER"
 if [ "${SNAPSHOTS_TO_DELETE}" != "" ]
   then
   #Delete snapshots

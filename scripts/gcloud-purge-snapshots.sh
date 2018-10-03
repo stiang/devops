@@ -42,7 +42,8 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
     fi
   fi
 
-  if [ ${SNAPSHOTS_TO_DELETE} != "" ]
+  if [ ${SNAPSHOTS_TO_DELETE} != "" ];
+    then
     #Delete snapshots
     echo "${SNAPSHOTS_TO_DELETE}"
     # echo "$(gcloud compute snapshots delete ${SNAPSHOTS_TO_DELETE} --quiet)"

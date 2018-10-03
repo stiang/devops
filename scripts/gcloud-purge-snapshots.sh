@@ -18,7 +18,7 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
   # format the date
   SNAPSHOT_DATETIME="$(date -d ${SNAPSHOT_DATETIME} +%Y%m%d)"
 
-  #echo "name: $SNAPSHOT_NAME Datetime: $SNAPSHOT_DATETIME"
+  echo "name: $SNAPSHOT_NAME Datetime: $SNAPSHOT_DATETIME"
 
   # Get date to delete from
   SNAPSHOT_EXPIRY="$(date -d "-30 days" +"%Y%m%d")"

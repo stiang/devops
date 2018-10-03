@@ -28,15 +28,24 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
   
   echo "Expiry: $SNAPSHOT_EXPIRY"
 
+  SNAPSHOTS_TO_DELETE=""
+
   # Make sure it's older than 30 days
   if [ $SNAPSHOT_EXPIRY -ge $SNAPSHOT_DATETIME ];
     then
     # Make sure its not first day in month
     if [ $(date -d $SNAPSHOT_DATETIME +%d) != "01" ]
       then
-      #Delete snapshot
-      echo "$(gcloud compute snapshots delete ${SNAPSHOT_NAME} --quiet)"
+      # #Delete snapshot
+      # echo "$(gcloud compute snapshots delete ${SNAPSHOT_NAME} --quiet)"
+      SNAPSHOTS_TO_DELETE="${SNAPSHOTS_TO_DELETE} ${SNAPSHOT_NAME} "
     fi
+  fi
+
+  if [ ${SNAPSHOTS_TO_DELETE} != "" ]
+    #Delete snapshots
+    echo "${SNAPSHOTS_TO_DELETE}"
+    # echo "$(gcloud compute snapshots delete ${SNAPSHOTS_TO_DELETE} --quiet)"
   fi
 done
 

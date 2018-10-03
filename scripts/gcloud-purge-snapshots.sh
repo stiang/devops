@@ -22,6 +22,8 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
 
   # Get date to delete from
   SNAPSHOT_EXPIRY="$(date -d "-30 days" +"%Y%m%d")"
+  
+  echo "Expiry: $SNAPSHOT_EXPIRY"
 
   # Make sure it's older than 30 days
   if [ $SNAPSHOT_EXPIRY -ge $SNAPSHOT_DATETIME ];

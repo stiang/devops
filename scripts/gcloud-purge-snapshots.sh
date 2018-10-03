@@ -7,6 +7,8 @@ HOSTNAME_SHORT="projectmailer-2"
 # Get a list of all discs with prefix "local-"
 SNAPSHOT_LIST_LOCAL="$(gcloud compute snapshots list --filter="name~'local-[^-]+-${HOSTNAME_SHORT}-.*'" --uri)"
 
+SNAPSHOTS_TO_DELETE=""
+
 # loop trough local list
 echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
   
@@ -28,7 +30,6 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
   
   echo "Expiry: $SNAPSHOT_EXPIRY"
 
-  SNAPSHOTS_TO_DELETE=""
 
   # Make sure it's older than 30 days
   if [ $SNAPSHOT_EXPIRY -ge $SNAPSHOT_DATETIME ];
@@ -42,11 +43,12 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
     fi
   fi
 
-  if [ "${SNAPSHOTS_TO_DELETE}" != "" ]
-    then
-    #Delete snapshots
-    echo "${SNAPSHOTS_TO_DELETE}"
-    # echo "$(gcloud compute snapshots delete ${SNAPSHOTS_TO_DELETE} --quiet)"
-  fi
 done
+
+if [ "${SNAPSHOTS_TO_DELETE}" != "" ]
+  then
+  #Delete snapshots
+  echo "${SNAPSHOTS_TO_DELETE}"
+  # echo "$(gcloud compute snapshots delete ${SNAPSHOTS_TO_DELETE} --quiet)"
+fi
 

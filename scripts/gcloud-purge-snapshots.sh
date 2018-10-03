@@ -40,7 +40,7 @@ while read line ; do
       then
       # #Delete snapshot
       # echo "$(gcloud compute snapshots delete ${SNAPSHOT_NAME} --quiet)"
-      echo "Adding: ${SNAPSHOT_NAME}"
+      # echo "Adding: ${SNAPSHOT_NAME}"
       SNAPSHOTS_TO_DELETE="${SNAPSHOT_NAME} ${SNAPSHOTS_TO_DELETE}"
     fi
   fi
@@ -54,7 +54,7 @@ echo "AFTER"
 if [ "${SNAPSHOTS_TO_DELETE}" != "" ]
   then
   #Delete snapshots
-  echo "${SNAPSHOTS_TO_DELETE}"
-  # echo "$(gcloud compute snapshots delete ${SNAPSHOTS_TO_DELETE} --quiet)"
+  # echo "${SNAPSHOTS_TO_DELETE}"
+  echo "$(gcloud compute snapshots delete ${SNAPSHOTS_TO_DELETE} --quiet)"
 fi
 

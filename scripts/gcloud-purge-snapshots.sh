@@ -10,7 +10,8 @@ SNAPSHOT_LIST_LOCAL="$(gcloud compute snapshots list --filter="name~'local-[^-]+
 SNAPSHOTS_TO_DELETE=""
 
 # loop trough local list
-echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
+# echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
+while read line ; do
   
   # get the snapshot name from the uri
   SNAPSHOT_NAME=${line##*/}
@@ -45,7 +46,7 @@ echo "${SNAPSHOT_LIST_LOCAL}" | while read line ; do
   fi
 
   # echo "New value: ${SNAPSHOTS_TO_DELETE}"
-done
+done <<< "${SNAPSHOT_LIST_LOCAL}"
 
 echo "BEFORE"
 echo "<${SNAPSHOTS_TO_DELETE}>"

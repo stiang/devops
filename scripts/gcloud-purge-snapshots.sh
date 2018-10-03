@@ -1,7 +1,8 @@
 #!/bin/bash
 set -e
 
-HOSTNAME_SHORT=$(hostname --short)
+# HOSTNAME_SHORT=$(hostname --short)
+HOSTNAME_SHORT="projectmailer-2"
 
 # Get a list of all discs with prefix "local-"
 SNAPSHOT_LIST_LOCAL="$(gcloud compute snapshots list --filter="name~'local-[^-]+-${HOSTNAME_SHORT}-.*'" --uri)"

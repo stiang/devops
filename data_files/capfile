@@ -17,10 +17,17 @@ mode = conf["deploy_mode"] || "update"
 servers = conf["servers"] || ["dev.grytoyr.net"]
 
 # Setup here
-repo   = `git ls-remote --get-url`.split(':')[1].gsub(/\.git$/, '').gsub(/[\\\n]/, '')
+repo_url = `git ls-remote --get-url`
+if repo_url.match(/^https:/)
+  provider = repo_url.split('://')[1].split('/')[0]
+  repo = repo_url.split('://')[1].split('/')[1..-1].join('/').gsub(/\.git$/, '').gsub(/[\\\n]/, '')
+else
+  provider = repo_url.split(':')[0].split('@')[1]
+  repo = repo_url.split(':')[1].gsub(/\.git$/, '').gsub(/[\\\n]/, '')
+end
 branch = `git rev-parse --symbolic-full-name --abbrev-ref HEAD`.gsub(/[\\\n]/, '')
 cmd    = "curl -so /tmp/dyn-deploy https://raw.githubusercontent.com/stiang/devops/master/bin/deploy?cachebuster=#{Time.now.to_i} && bash /tmp/dyn-deploy"
-common = "#{cmd} #{repo} #{branch}"
+common = "#{cmd} #{provider} #{repo} #{branch}"
 
 role_args = [:app_servers] + servers
 role(*role_args)

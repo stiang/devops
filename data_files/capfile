@@ -20,11 +20,12 @@ servers = conf["servers"] || ["dev.grytoyr.net"]
 repo_url = `git ls-remote --get-url`
 if repo_url.match(/^https:/)
   provider = repo_url.split('://')[1].split('/')[0]
-  repo = repo_url.split('://')[1].split('/')[1..-1].join('/').gsub(/\.git$/, '').gsub(/[\\\n]/, '')
+  repo = repo_url.split('://')[1].split('/')[1..-1].join('/')
 else
   provider = repo_url.split(':')[0].split('@')[1]
-  repo = repo_url.split(':')[1].gsub(/\.git$/, '').gsub(/[\\\n]/, '')
+  repo = repo_url.split(':')[1]
 end
+repo = repo.gsub(/\.git$/, '').gsub(/[\\\n]/, '')
 branch = `git rev-parse --symbolic-full-name --abbrev-ref HEAD`.gsub(/[\\\n]/, '')
 cmd    = "curl -so /tmp/dyn-deploy https://raw.githubusercontent.com/stiang/devops/master/bin/deploy?cachebuster=#{Time.now.to_i} && bash /tmp/dyn-deploy"
 common = "#{cmd} #{provider} #{repo} #{branch}"

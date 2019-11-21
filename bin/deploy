@@ -2,17 +2,18 @@
 set -e
 
 # Config here
-org_and_repo="${1}"
-branch="${2}"
-target="${3}"
-mode="${4}"
-extra="${5}"
+provider="${1}"
+org_and_repo="${2}"
+branch="${3}"
+target="${4}"
+mode="${5}"
+extra="${6}"
 IFS='/' read -ra org_and_repo_arr <<< "${org_and_repo}"
 org="${org_and_repo_arr[0]}"
 repo="${org_and_repo_arr[1]}"
 
-repo_web_path="https://github.com/${org_and_repo}"
-repo_git_path="git@github.com:${org_and_repo}.git"
+repo_web_path="https://${provider}/${org_and_repo}"
+repo_git_path="git@${provider}:${org_and_repo}.git"
 
 path="/local/www/${org}/${repo}/${target}"
 working_path="${path}/current"

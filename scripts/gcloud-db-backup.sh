@@ -28,6 +28,7 @@ touch "${pgfile}"
 chown postgres:postgres "${pgfile}"
 su postgres -c "pg_dumpall > ${pgfile}"
 chown root:root "${pgfile}"
+bzip2 "${pgfile}"
 
 # Backup home dirs
 # rsync -a --exclude .git --exclude node_modules --exclude .npm --exclude .node-gyp --exclude data /home ${backup_dir}
